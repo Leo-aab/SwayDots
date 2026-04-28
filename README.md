@@ -18,6 +18,7 @@ Every distro that's has Wayland as its main compositor.
 Its necessary to install -
  - Sway (WM compositor) - and the tools dependences (pipewire, grim, slurp, fuzzel, udevil - if has runit, openrc init)
  - Waybar (Bar for Wayland)
+ - Fastfetch (Recommends install JetBrains Nerd Fonts directly from repository distro - to works well the fetch symbols of script) 
  - Helix (Text Editor)
  - PcmanFM or another GTK File Explorer (Thunar works very well)
  - Nwg-look - GTK EDITOR(to choose your themes and icons)

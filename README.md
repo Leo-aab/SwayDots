@@ -13,19 +13,17 @@ Every distro that's has Wayland as its main compositor.
 ![Preview](./src/screenshot-cool.jpeg)
 
 
-
-
-
-
 > But - how i download it?
 
 Its necessary to install -
  - Sway (WM compositor) - and the tools dependences (pipewire, grim, slurp, fuzzel, udevil - if has runit, openrc init)
  - Waybar (Bar for Wayland)
  - Helix (Text Editor)
- - PcmanFM or another GTK File Explorer
- - nwg-look (to choose your themes and icons)
- - alacritty (or kitty, but swith on theme like glacier __ i love this theme wtf)
+ - PcmanFM or another GTK File Explorer (Thunar works very well)
+ - Nwg-look - GTK EDITOR(to choose your themes and icons)
+ - Alacritty (or kitty, but switch on theme like glacier __ i love this theme wtf)
+ - Pavucontrol (onclick audio button)
+ 
 
 
 ###

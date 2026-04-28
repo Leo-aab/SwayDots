@@ -1,0 +1,113 @@
+
+{
+    "layer": "top",
+    "position": "left",
+
+    "width": 52,
+    "height": 420,
+
+    "margin-top": 80,
+    "margin-left": 2,
+    "margin-bottom": 80,
+
+    "exclusive-zone": 0,
+    "passthrough": false,
+
+    "spacing": 2,
+
+    "modules-left": [],
+
+    "modules-center": [
+        "sway/workspaces",
+        "custom/sep",
+        "network",
+        "pulseaudio",
+        "memory",
+        "disk",
+        "custom/sep",
+        "clock"
+    ],
+
+    "modules-right": [],
+
+    "sway/workspaces": {
+        "disable-scroll": false,
+        "all-outputs": false,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "urgent": "",
+            "focused": "",
+            "default": ""
+        },
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        }
+    },
+
+    "custom/sep": {
+        "format": "─",
+        "tooltip": false
+    },
+
+    "network": {
+        "interval": 5,
+        "format-wifi": "",
+        "format-ethernet": "󰈀",
+        "format-disconnected": "󰖪",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "{ifname}",
+        "tooltip-format-disconnected": "Desconectado"
+    },
+
+    "pulseaudio": {
+        "format": "{icon}",
+        "format-muted": "󰝟",
+        "format-icons": {
+            "default": ["󰕿", "󰖀", "󰕾"]
+        },
+        "on-click": "pavucontrol",
+        "tooltip-format": "{volume}% · {desc}",
+        "scroll-step": 5
+    },
+
+    "memory": {
+        "interval": 5,
+        "format": "󰍛",
+        "tooltip-format": "RAM: {used:0.1f}G / {total:0.1f}G ({percentage}%)",
+        "states": {
+            "warning": 70,
+            "critical": 90
+        }
+    },
+
+    "disk": {
+        "interval": 30,
+        "path": "/",
+        "format": "󰋊",
+        "tooltip-format": "Disco: {used} / {total} ({percentage_used}%)",
+        "states": {
+            "warning": 70,
+            "critical": 90
+        }
+    },
+
+    "clock": {
+        "interval": 60,
+        "format": "{:%H\n%M}",
+        "tooltip-format": "{:%A, %d de %B de %Y}",
+        "locale": "pt_BR.UTF-8"
+    }
+}

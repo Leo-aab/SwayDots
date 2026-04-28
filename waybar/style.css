@@ -1,0 +1,123 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+window#waybar {
+    background: transparent;
+    margin: 0; 
+    padding: 0;  
+}
+
+.modules-center {
+    background-color: rgba(10, 20, 14, 0.88);
+    border: 1px solid rgba(74, 222, 128, 0.18);
+      border-radius: 16px;
+    padding: 8px 0;
+    opacity: 0.95;
+    transition: opacity 0.35s;
+}
+
+window#waybar:hover .modules-center {
+    opacity: 1;
+}
+
+#workspaces {
+    padding: 4px 0;
+}
+
+#workspaces button {
+    color: #4ade80;
+    opacity: 0.8;
+    border-radius: 6px;
+    padding: 4px 8px;
+    margin: 1px 4px;
+    font-size: 12px;
+    font-weight: 600;
+    background: transparent;
+    transition: opacity 0.2s;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#workspaces button:hover {
+    background: rgba(74, 222, 128, 0.1);
+    opacity: 0.75;
+}
+
+#workspaces button.focused,
+#workspaces button.active{
+    color: #ffffff;
+    opacity: 1;
+    background: linear-gradient(0deg, rgba(30, 40, 35, 1), rgba(15, 25, 20, 1));
+    border-top: 2px solid rgba(0, 0, 0, 0.8); 
+    border-bottom: 1px solid rgba(74, 222, 128, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.9); 
+    margin-top: 3px; 
+    margin-bottom: -1px;
+   
+}
+
+#workspaces button.urgent {
+    color: #fbbf24;
+    opacity: 1;
+    background: rgba(251, 191, 36, 0.1);
+}
+
+#custom-sep {
+    color: rgba(74, 222, 128, 0.15);
+    font-size: 10px;
+    padding: 2px 0;
+    margin: 2px 0;
+}
+
+#network,
+#pulseaudio,
+#memory,
+#disk,
+#clock {
+    color: #4ade80;
+    padding: 8px 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+#network.disconnected {
+    color: #ef4444;
+}
+
+#pulseaudio.muted {
+    color: #6b7280;
+}
+
+#memory.warning { color: #fbbf24; }
+#memory.critical { color: #ef4444; }
+
+#disk.warning { color: #fbbf24; }
+#disk.critical { color: #ef4444; }
+
+#clock {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+tooltip {
+    background: rgba(10, 20, 14, 0.95);
+    border: 1px solid rgba(74, 222, 128, 0.3);
+    border-radius: 10px;
+    color: #86efac;
+    font-size: 12px;
+    padding: 6px 10px;
+}
+
+tooltip label {
+    color: #86efac;
+}

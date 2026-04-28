@@ -1,0 +1,40 @@
+[window]
+padding = { x = 12, y = 12 }
+dynamic_padding = true
+opacity = 1 
+blur = true    
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Medium" }
+size = 10.0
+
+[colors.primary]
+background = '#000000'
+foreground = '#d1d5db'
+[colors.cursor]
+text = '#0a140e'
+cursor = '#4ade80'
+
+[colors.normal]
+black =   '#1a1b26'
+red =     '#ef4444' 
+green =   '#4ade80'
+yellow =  '#fbbf24' 
+blue = '#60a5fa'
+magenta = '#c084fc'
+cyan =    '#7dd3fc'
+white =   '#c0caf5'
+
+[colors.bright]
+black =   '#414868'
+red =     '#f87171'
+green = '#22c55e'
+yellow =  '#fde047'
+blue = '#93c5fd' 
+magenta = '#bb9af7'
+cyan =    '#99f6e4'
+white =   '#ffffff'
+
+[colors.selection]
+text = 'CellForeground'
+background = '#28322d' # Tom de verde escuro para seleção

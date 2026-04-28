@@ -1,0 +1,26 @@
+
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "exclusive": true,
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-right": ["pulseaudio", "cpu", "memory", "clock", "tray"],
+
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{name}"
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-muted": "",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "clock": {
+        "format": "{:%H:%M} "
+    }
+}

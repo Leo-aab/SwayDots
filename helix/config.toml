@@ -1,0 +1,23 @@
+theme = "carbonfox"
+
+[editor]
+line-number = "relative"
+cursorline = true
+bufferline = "multiple"
+mouse = false
+color-modes = true
+end-of-line-diagnostics = "hint"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+
+[editor.lsp]
+display-inlay-hints = true

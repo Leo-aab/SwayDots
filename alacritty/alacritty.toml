@@ -37,4 +37,4 @@ white =   '#ffffff'
 
 [colors.selection]
 text = 'CellForeground'
-background = '#28322d' # Tom de verde escuro para seleção
+background = '#28322d' 

@@ -25,8 +25,11 @@ Its necessary to install -
  - Helix (Text Editor)
  - PcmanFM or another GTK File Explorer
  - nwg-look (to choose your themes and icons)
+ - alacritty (or kitty, but swith on theme like glacier __ i love this theme wtf)
 
 
 ###
 Cloning my repo, u need move this folders `alacritty - fastfetch - helix - sway - waybar - fuzzel` on ur `.config` file
+
 The `Picture` folder, move to /home folder, thats wallpapers to sync with sway config
+###

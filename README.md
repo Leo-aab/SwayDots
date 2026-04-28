@@ -7,7 +7,26 @@ I needed to create some ricing dotfiles because my NixDots (which you can see in
 So... Here we go.
 
 
-Suported Distros -
-Every distro that's has Wayland as main graphic compositor.
+### Suported Distros -
+Every distro that's has Wayland as its main compositor.
 
 ![Preview](./src/screenshot-cool.jpeg)
+
+
+
+
+
+
+> But - how i download it?
+
+Its necessary to install -
+ - Sway (WM compositor) - and the tools dependences (pipewire, grim, slurp, fuzzel, udevil - if has runit, openrc init)
+ - Waybar (Bar for Wayland)
+ - Helix (Text Editor)
+ - PcmanFM or another GTK File Explorer
+ - nwg-look (to choose your themes and icons)
+
+
+###
+Cloning my repo, u need move this folders `alacritty - fastfetch - helix - sway - waybar - fuzzel` on ur `.config` file
+The `Picture` folder, move to /home folder, thats wallpapers to sync with sway config
